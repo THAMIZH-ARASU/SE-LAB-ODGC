@@ -1,4 +1,4 @@
-# PTU Advanced Portal - Online OD Management System
+# PTU Advanced Portal - Online OD And Career Guidance Management System
 
 [![PHP](https://img.shields.io/badge/PHP-8.0+-blue.svg)](https://php.net)
 [![MySQL](https://img.shields.io/badge/MySQL-5.7+-green.svg)](https://mysql.com)
