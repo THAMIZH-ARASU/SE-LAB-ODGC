@@ -13,8 +13,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Email configuration
-$EMAIL_ADDRESS = "amizharasu@gmail.com";
-$EMAIL_PASSWORD = "monb vzsm oabv lpvi";
+$EMAIL_ADDRESS = "yourgmail@gmail.com";
+$EMAIL_PASSWORD = "your gmail app password";
 
 function sendEmailNotification($to, $subject, $body) {
     global $EMAIL_ADDRESS, $EMAIL_PASSWORD;

@@ -31,12 +31,12 @@ if ($application) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'amizharasu@gmail.com';
-        $mail->Password = 'monb vzsm oabv lpvi';
+        $mail->Username = 'yourgmail@gmail.com';
+        $mail->Password = 'your gmail app password';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
         
-        $mail->setFrom('amizharasu@gmail.com', 'PTU OD System');
+        $mail->setFrom('yourgmail@gmail.com', 'PTU OD System');
         $mail->addAddress($application['email']);
         $mail->isHTML(true);
         $mail->Subject = 'Your OD Application has been Approved';

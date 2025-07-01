@@ -55,7 +55,7 @@ CREATE TABLE `leave_applications` (
 --
 
 INSERT INTO `leave_applications` (`id`, `name`, `enrollment`, `department`, `year_of_study`, `programme`, `branch`, `class`, `leave_type`, `from_date`, `to_date`, `reason`, `days_availed`, `parent_sign`, `student_sign`, `advisor_letter`, `hod_letter`, `submission_time`, `status`, `email`) VALUES
-(1, 'AARYAN M', '2201112003', 'IT', '3rd Year', 'B.Tech', 'CC', 'a', 'duty', '2025-03-20', '2025-03-22', 'Stress', 2, 'uploads/download.jpeg', 'uploads/images (1).png', 'uploads/Domain.pdf', 'uploads/pdfcoffee.com_web-technology-7-pdf-free.pdf', '2025-03-06 12:09:47', 'Approved', 'amizharasu@gmail.com'),
+(1, 'AARYAN M', '2201112003', 'IT', '3rd Year', 'B.Tech', 'CC', 'a', 'duty', '2025-03-20', '2025-03-22', 'Stress', 2, 'uploads/download.jpeg', 'uploads/images (1).png', 'uploads/Domain.pdf', 'uploads/pdfcoffee.com_web-technology-7-pdf-free.pdf', '2025-03-06 12:09:47', 'Approved', 'yourgmail@gmail.com'),
 (3, 'Adesh', '2201112004', 'IT', '3rd Year', 'B.Tech', 'CC', 'a', 'duty', '2025-03-07', '2025-03-08', 'Sports', 2, 'uploads/Adesh_2201112004/download.jpeg', 'uploads/Adesh_2201112004/images (1).png', 'uploads/Adesh_2201112004/pdfcoffee.com_web-technology-7-pdf-free.pdf', 'uploads/Adesh_2201112004/Domain.pdf', '2025-03-06 16:59:44', 'Approved', 'mohanaryan21@gmail.com'),
 (4, 'Sarvesh', '3456789456', 'IT', '2nd Year', 'B.Tech', 'Full Stack', 'a', 'duty', '2025-03-10', '2025-03-12', 'Sports', 2, 'uploads/Sarvesh_3456789456/images (1).png', 'uploads/Sarvesh_3456789456/download.jpeg', 'uploads/Sarvesh_3456789456/APPLICATION LAYER PROTOCOLS.pdf', 'uploads/Sarvesh_3456789456/Domain.pdf', '2025-03-07 13:44:02', 'Approved', 'sarweshsasi220@gmail.com'),
 (5, 'Adesh', '2201112004', 'IT', '3rd Year', 'B.Tech', 'CC', 'a', 'duty', '2025-03-22', '2025-03-24', 'Arupadai tour', 2, 'uploads/Adesh_2201112004/images (1).png', 'uploads/Adesh_2201112004/download.jpeg', 'uploads/Adesh_2201112004/Domain.pdf', 'uploads/Adesh_2201112004/Domain.pdf', '2025-03-08 13:50:36', 'Approved', 'adesh.saminathan998@ptuniv.edu.in');
@@ -83,17 +83,17 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `registration_number`, `role`, `email`, `password`, `department`, `name`) VALUES
 (1, '12345', 'student', 'mohanaryan21@gmail.com', 'aari', NULL, 'Gold'),
 (2, '67890', 'dean', 'divyamohan554@gmail.com', 'aari', NULL, 'Dean'),
-(3, '54321', 'hod', 'amizharasu@gmail.com', 'aari', NULL, ''),
-(4, '98765', 'vc', 'amizharasu@gmail.com', 'aari', NULL, 'MR.MOHAN'),
-(5, '221', 'hod', 'amizharasu@gmail.com', 'aari', 'CSE', ''),
-(6, 'hod_ece', 'hod', 'amizharasu@gmail.com', 'aari', 'ECE', ''),
+(3, '54321', 'hod', 'yourgmail@gmail.com', 'aari', NULL, ''),
+(4, '98765', 'vc', 'yourgmail@gmail.com', 'aari', NULL, 'MR.MOHAN'),
+(5, '221', 'hod', 'yourgmail@gmail.com', 'aari', 'CSE', ''),
+(6, 'hod_ece', 'hod', 'yourgmail@gmail.com', 'aari', 'ECE', ''),
 (7, 'hod_eee', 'hod', 'hod_eee@ptuniv.edu.in', 'hashed_password', 'EEE', ''),
 (8, 'hod_mech', 'hod', 'hod_mech@ptuniv.edu.in', 'hashed_password', 'MECH', ''),
 (9, 'hod_civil', 'hod', 'hod_civil@ptuniv.edu.in', 'hashed_password', 'CIVIL', ''),
-(10, '220', 'hod', 'amizharasu@gmail.com', 'aari', 'IT', 'IT HOD'),
+(10, '220', 'hod', 'yourgmail@gmail.com', 'aari', 'IT', 'IT HOD'),
 (11, 'hod_chem', 'hod', 'hod_chem@ptuniv.edu.in', 'hashed_password', 'CHEM', ''),
 (12, '2301110043', 'student', 'sarweshsasi220@gmail.com', 'sarvesh', 'CSE', ''),
-(13, '2201112003', 'student', 'amizharasu@gmail.com', 'aari', 'IT', 'AARYAN M'),
+(13, '2201112003', 'student', 'yourgmail@gmail.com', 'aari', 'IT', 'AARYAN M'),
 (14, '2201112004', 'student', 'adesh.saminathan998@ptuniv.edu.in', 'adesh', 'IT', 'Adesh');
 
 --

@@ -36,12 +36,12 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'amizharasu@gmail.com';
-    $mail->Password = 'monb vzsm oabv lpvi';
+    $mail->Username = 'yourgmail@gmail.com';
+    $mail->Password = 'your gmail app password';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
     
-    $mail->setFrom('amizharasu@gmail.com', 'PTU OD System');
+    $mail->setFrom('yourgmail@gmail.com', 'PTU OD System');
     
     foreach ($teachers as $teacher) {
         $mail->addAddress($teacher['teacher_email']);

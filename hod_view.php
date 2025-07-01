@@ -19,8 +19,8 @@ if (empty($hod_department)) {
 }
 
 // Email Configuration
-$EMAIL_ADDRESS = "amizharasu@gmail.com";
-$EMAIL_PASSWORD = "monb vzsm oabv lpvi";
+$EMAIL_ADDRESS = "yourgmail@gmail.com";
+$EMAIL_PASSWORD = "your gmail app password";
 
 // Process filters
 $year_filter = $_GET['year'] ?? '';

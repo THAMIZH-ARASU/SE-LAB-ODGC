@@ -22,8 +22,8 @@ if ($application) {
     $stmt->execute(['id' => $id]);
 
     // Email Configuration
-    $EMAIL_ADDRESS = "amizharasu@gmail.com"; // Your Gmail address
-    $EMAIL_PASSWORD = "monb vzsm oabv lpvi"; // Your app-specific password
+    $EMAIL_ADDRESS = "yourgmail@gmail.com"; // Your Gmail address
+    $EMAIL_PASSWORD = "your gmail app password"; // Your app-specific password
     
     // Get HOD email based on department from users table
     $hod_email = getHodEmailByDepartment($application['department']);

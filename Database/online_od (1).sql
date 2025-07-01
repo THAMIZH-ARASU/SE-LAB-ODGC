@@ -61,20 +61,20 @@ CREATE TABLE `leave_applications` (
 --
 
 INSERT INTO `leave_applications` (`id`, `name`, `enrollment`, `department`, `year_of_study`, `programme`, `branch`, `class`, `leave_type`, `from_date`, `to_date`, `reason`, `days_availed`, `parent_sign`, `student_sign`, `advisor_letter`, `hod_letter`, `submission_time`, `status`, `email`, `leave_quota`, `dean_decision`, `forwarded_to_hod`, `forwarded_semester`, `forwarded_to_teachers`, `attendance_marked`) VALUES
-(1, 'AARYAN M', '2201112003', 'IT', '3rd Year', 'B.Tech', 'CC', 'a', 'duty', '2025-03-20', '2025-03-22', 'Stress', 2, 'uploads/download.jpeg', 'uploads/images (1).png', 'uploads/Domain.pdf', 'uploads/pdfcoffee.com_web-technology-7-pdf-free.pdf', '2025-03-06 12:09:47', 'Approved', 'amizharasu@gmail.com', 7, NULL, 0, NULL, 0, 0),
+(1, 'AARYAN M', '2201112003', 'IT', '3rd Year', 'B.Tech', 'CC', 'a', 'duty', '2025-03-20', '2025-03-22', 'Stress', 2, 'uploads/download.jpeg', 'uploads/images (1).png', 'uploads/Domain.pdf', 'uploads/pdfcoffee.com_web-technology-7-pdf-free.pdf', '2025-03-06 12:09:47', 'Approved', 'yourgmail@gmail.com', 7, NULL, 0, NULL, 0, 0),
 (3, 'Adesh', '2201112004', 'IT', '3rd Year', 'B.Tech', 'CC', 'a', 'duty', '2025-03-07', '2025-03-08', 'Sports', 2, 'uploads/Adesh_2201112004/download.jpeg', 'uploads/Adesh_2201112004/images (1).png', 'uploads/Adesh_2201112004/pdfcoffee.com_web-technology-7-pdf-free.pdf', 'uploads/Adesh_2201112004/Domain.pdf', '2025-03-06 16:59:44', 'Approved', 'mohanaryan21@gmail.com', 7, NULL, 0, NULL, 0, 0),
 (4, 'Sarvesh', '3456789456', 'IT', '2nd Year', 'B.Tech', 'Full Stack', 'a', 'duty', '2025-03-10', '2025-03-12', 'Sports', 2, 'uploads/Sarvesh_3456789456/images (1).png', 'uploads/Sarvesh_3456789456/download.jpeg', 'uploads/Sarvesh_3456789456/APPLICATION LAYER PROTOCOLS.pdf', 'uploads/Sarvesh_3456789456/Domain.pdf', '2025-03-07 13:44:02', 'Approved', 'sarweshsasi220@gmail.com', 7, NULL, 0, NULL, 0, 0),
 (5, 'Adesh', '2201112004', 'IT', '3rd Year', 'B.Tech', 'CC', 'a', 'duty', '2025-03-22', '2025-03-24', 'Arupadai tour', 2, 'uploads/Adesh_2201112004/images (1).png', 'uploads/Adesh_2201112004/download.jpeg', 'uploads/Adesh_2201112004/Domain.pdf', 'uploads/Adesh_2201112004/Domain.pdf', '2025-03-08 13:50:36', 'Approved', 'adesh.saminathan998@ptuniv.edu.in', 7, NULL, 0, NULL, 0, 0),
 (6, 'Thangamani', '12345', 'CSE', '1st Year', 'B.Tech', 'CC', 'a', 'personal', '2025-03-26', '2025-03-12', 'Bored', 4, 'uploads/Thangamani_12345/images (1).png', 'uploads/Thangamani_12345/download.jpeg', 'uploads/Thangamani_12345/Domain.pdf', 'uploads/Thangamani_12345/applying-uml-and-patterns-an-introduction-to-object-oriented-analysis-and-design-and-iterative-development-1163708372-0131489062-9780131489066_compress.pdf', '2025-03-08 18:32:21', 'Approved', 'mohanaryan21@gmail.com', 7, 'Rejected', 0, NULL, 0, 0),
 (17, 'Sarwesh', '2301110043', 'CSE', '2nd Year', 'B.Tech', 'BTECH', 'a', 'personal', '2025-03-12', '2025-03-13', 'baseball', 2, 'uploads/Sarwesh_2301110043/TECHSPIRE.png', 'uploads/Sarwesh_2301110043/TECHSPIRE.png', 'uploads/Sarwesh_2301110043/iotunit1[1].pdf', 'uploads/Sarwesh_2301110043/iotunit1[1].pdf', '2025-03-11 14:26:54', 'Rejected', 'sarweshsasi220@gmail.com', 7, NULL, 1, NULL, 0, 0),
 (18, 'Sarwesh', '2301110043', 'ECE', '2nd Year', 'B.Tech', 'cc', 'a', 'personal', '2025-03-12', '2025-03-13', 'cold', 1, 'uploads/Sarwesh_2301110043/TECHSPIRE.png', 'uploads/Sarwesh_2301110043/TECHSPIRE.png', 'uploads/Sarwesh_2301110043/iotunit1[1].pdf', 'uploads/Sarwesh_2301110043/iotunit1[1].pdf', '2025-03-11 14:47:13', 'Approved', 'sarweshsasi220@gmail.com', 7, NULL, 1, NULL, 0, 0),
-(21, 'AARYAN M', '2201112003', 'IT', '3rd Year', 'B.Tech', 'Full Stack', 'a', 'personal', '2025-03-12', '2025-03-12', 'Cold', 2, 'uploads/AARYAN M_2201112003/TECHSPIRE.png', 'uploads/AARYAN M_2201112003/TECHSPIRE.png', 'uploads/AARYAN M_2201112003/iotunit1[1].pdf', 'uploads/AARYAN M_2201112003/iotunit1[1].pdf', '2025-03-11 16:27:06', 'Approved', 'amizharasu@gmail.com', 7, NULL, 1, NULL, 0, 0),
+(21, 'AARYAN M', '2201112003', 'IT', '3rd Year', 'B.Tech', 'Full Stack', 'a', 'personal', '2025-03-12', '2025-03-12', 'Cold', 2, 'uploads/AARYAN M_2201112003/TECHSPIRE.png', 'uploads/AARYAN M_2201112003/TECHSPIRE.png', 'uploads/AARYAN M_2201112003/iotunit1[1].pdf', 'uploads/AARYAN M_2201112003/iotunit1[1].pdf', '2025-03-11 16:27:06', 'Approved', 'yourgmail@gmail.com', 7, NULL, 1, NULL, 0, 0),
 (22, 'Gold', '12345', 'CSE', '1st Year', 'B.Tech', 'Full Stack', 'a', 'personal', '2025-03-13', '2025-03-15', 'chicken pox', 3, 'uploads/Gold_12345/TECHSPIRE.png', 'uploads/Gold_12345/TECHSPIRE.png', 'uploads/Gold_12345/Domain.pdf', 'uploads/Gold_12345/Domain.pdf', '2025-03-11 16:53:42', 'Approved', 'mohanaryan21@gmail.com', 7, NULL, 1, NULL, 0, 0),
-(23, 'AARYAN ', '2201112003', 'IT', '3rd Year', 'B.Tech', 'Full Stack', 'a', 'personal', '2025-03-13', '2025-03-13', 'Fever', 4, 'uploads/AARYAN _2201112003/TECHSPIRE.png', 'uploads/AARYAN _2201112003/TECHSPIRE.png', 'uploads/AARYAN _2201112003/iotunit1[1].pdf', 'uploads/AARYAN _2201112003/iotunit1[1].pdf', '2025-03-12 10:05:31', 'Rejected', 'amizharasu@gmail.com', 7, NULL, 0, NULL, 0, 0),
-(24, 'AARYAN ', '2201112003', 'CSE', '3rd Year', 'B.Tech', 'Full Stack', 'a', 'personal', '2025-05-10', '2025-05-11', 'Heavy fever', 2, 'uploads/AARYAN _2201112003/Industrial_IOT1-removebg-preview.png', 'uploads/AARYAN _2201112003/designpanda.png', 'uploads/AARYAN _2201112003/IoT CAT 2.pdf', 'uploads/AARYAN _2201112003/IoT CAT 2.pdf', '2025-05-10 06:16:51', 'Approved', 'amizharasu@gmail.com', 7, NULL, 0, NULL, 0, 0),
-(25, 'AARYAN ', '2201112003', 'CSE', '2nd Year', 'B.Tech', 'Automata Specialist', 'a', 'duty', '2025-05-14', '2025-05-14', 'Hackathon', 5, 'uploads/AARYAN _2201112003/Industrial_IOT1-removebg-preview.png', 'uploads/AARYAN _2201112003/Industrial_IOT1-removebg-preview.png', 'uploads/AARYAN _2201112003/thynk unlimted.pdf', 'uploads/AARYAN _2201112003/thynk unlimted.pdf', '2025-05-13 16:54:41', 'Approved', 'amizharasu@gmail.com', 7, NULL, 0, NULL, 0, 0),
-(26, 'Aaryan', '2201112003', 'CSE', '3rd Year', 'B.Tech', 'BTECH', 'a', 'personal', '2025-05-16', '2025-05-16', 'Headache', 6, 'uploads/Aaryan_2201112003/Industrial_IOT1-removebg-preview.png', 'uploads/Aaryan_2201112003/designpanda.png', 'uploads/Aaryan_2201112003/thynk unlimted.pdf', 'uploads/Aaryan_2201112003/thynk unlimted.pdf', '2025-05-15 11:33:04', 'Forwarded to Teacher', 'amizharasu@gmail.com', 7, NULL, 0, '1', 1, 1),
-(27, 'AARYAN M', '22011120031', 'CSE', '3rd Year', 'B.Tech', 'CC', 'a', 'personal', '2025-05-16', '2025-05-16', 'Fever', 6, 'uploads/AARYAN M_2201112003/designpanda.png', 'uploads/AARYAN M_2201112003/designpanda.png', 'uploads/AARYAN M_2201112003/thynk unlimted.pdf', 'uploads/AARYAN M_2201112003/thynk unlimted.pdf', '2025-05-15 15:31:23', 'Forwarded to Teacher', 'amizharasu@gmail.com', 7, NULL, 0, '6', NULL, 0);
+(23, 'AARYAN ', '2201112003', 'IT', '3rd Year', 'B.Tech', 'Full Stack', 'a', 'personal', '2025-03-13', '2025-03-13', 'Fever', 4, 'uploads/AARYAN _2201112003/TECHSPIRE.png', 'uploads/AARYAN _2201112003/TECHSPIRE.png', 'uploads/AARYAN _2201112003/iotunit1[1].pdf', 'uploads/AARYAN _2201112003/iotunit1[1].pdf', '2025-03-12 10:05:31', 'Rejected', 'yourgmail@gmail.com', 7, NULL, 0, NULL, 0, 0),
+(24, 'AARYAN ', '2201112003', 'CSE', '3rd Year', 'B.Tech', 'Full Stack', 'a', 'personal', '2025-05-10', '2025-05-11', 'Heavy fever', 2, 'uploads/AARYAN _2201112003/Industrial_IOT1-removebg-preview.png', 'uploads/AARYAN _2201112003/designpanda.png', 'uploads/AARYAN _2201112003/IoT CAT 2.pdf', 'uploads/AARYAN _2201112003/IoT CAT 2.pdf', '2025-05-10 06:16:51', 'Approved', 'yourgmail@gmail.com', 7, NULL, 0, NULL, 0, 0),
+(25, 'AARYAN ', '2201112003', 'CSE', '2nd Year', 'B.Tech', 'Automata Specialist', 'a', 'duty', '2025-05-14', '2025-05-14', 'Hackathon', 5, 'uploads/AARYAN _2201112003/Industrial_IOT1-removebg-preview.png', 'uploads/AARYAN _2201112003/Industrial_IOT1-removebg-preview.png', 'uploads/AARYAN _2201112003/thynk unlimted.pdf', 'uploads/AARYAN _2201112003/thynk unlimted.pdf', '2025-05-13 16:54:41', 'Approved', 'yourgmail@gmail.com', 7, NULL, 0, NULL, 0, 0),
+(26, 'Aaryan', '2201112003', 'CSE', '3rd Year', 'B.Tech', 'BTECH', 'a', 'personal', '2025-05-16', '2025-05-16', 'Headache', 6, 'uploads/Aaryan_2201112003/Industrial_IOT1-removebg-preview.png', 'uploads/Aaryan_2201112003/designpanda.png', 'uploads/Aaryan_2201112003/thynk unlimted.pdf', 'uploads/Aaryan_2201112003/thynk unlimted.pdf', '2025-05-15 11:33:04', 'Forwarded to Teacher', 'yourgmail@gmail.com', 7, NULL, 0, '1', 1, 1),
+(27, 'AARYAN M', '22011120031', 'CSE', '3rd Year', 'B.Tech', 'CC', 'a', 'personal', '2025-05-16', '2025-05-16', 'Fever', 6, 'uploads/AARYAN M_2201112003/designpanda.png', 'uploads/AARYAN M_2201112003/designpanda.png', 'uploads/AARYAN M_2201112003/thynk unlimted.pdf', 'uploads/AARYAN M_2201112003/thynk unlimted.pdf', '2025-05-15 15:31:23', 'Forwarded to Teacher', 'yourgmail@gmail.com', 7, NULL, 0, '6', NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -153,8 +153,8 @@ CREATE TABLE `profile_change_requests` (
 --
 
 INSERT INTO `profile_change_requests` (`id`, `registration_number`, `current_name`, `current_email`, `new_name`, `new_email`, `status`, `request_date`, `processed_date`, `processed_by`, `admin_notes`) VALUES
-(1, '2201112003', 'Aaryan', 'amizharasu@gmail.com', 'AARYAN M', 'amizharasu@gmail.com', 'approved', '2025-05-15 19:51:46', '2025-05-15 19:52:10', NULL, ''),
-(2, '2201112003', 'AARYAN M', 'amizharasu@gmail.com', 'AARYAN M 01', 'amizharasu@gmail.com', 'approved', '2025-05-15 21:02:08', '2025-05-15 21:11:28', NULL, '');
+(1, '2201112003', 'Aaryan', 'yourgmail@gmail.com', 'AARYAN M', 'yourgmail@gmail.com', 'approved', '2025-05-15 19:51:46', '2025-05-15 19:52:10', NULL, ''),
+(2, '2201112003', 'AARYAN M', 'yourgmail@gmail.com', 'AARYAN M 01', 'yourgmail@gmail.com', 'approved', '2025-05-15 21:02:08', '2025-05-15 21:11:28', NULL, '');
 
 -- --------------------------------------------------------
 
@@ -204,17 +204,17 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `registration_number`, `role`, `email`, `password`, `department`, `name`, `staff_id`) VALUES
 (1, '12345', 'student', 'mohanaryan21@gmail.com', 'aari', NULL, 'Gold', NULL),
 (2, '67890', 'dean', 'divyamohan554@gmail.com', 'aari', NULL, 'Dean', NULL),
-(3, '54321', 'hod', 'amizharasu@gmail.com', 'aari', NULL, '', NULL),
+(3, '54321', 'hod', 'yourgmail@gmail.com', 'aari', NULL, '', NULL),
 (4, '98765', 'vc', 'jagahdish5@gmail.com', 'aari', NULL, 'MR.MOHAN', NULL),
 (5, '221', 'hod', 'aaryanabi72@gmail.com', 'aari', 'CSE', 'CSE_HOD', NULL),
 (6, 'hod_ece', 'hod', 'lokesh20ptu@gmail.com', 'aari', 'ECE', '', NULL),
 (7, 'hod_eee', 'hod', 'hod_eee@ptuniv.edu.in', 'hashed_password', 'EEE', '', NULL),
 (8, 'hod_mech', 'hod', 'hod_mech@ptuniv.edu.in', 'hashed_password', 'MECH', '', NULL),
 (9, 'hod_civil', 'hod', 'hod_civil@ptuniv.edu.in', 'hashed_password', 'CIVIL', '', NULL),
-(10, '220', 'hod', 'amizharasu@gmail.com', 'aari', 'IT', 'IT HOD', NULL),
+(10, '220', 'hod', 'yourgmail@gmail.com', 'aari', 'IT', 'IT HOD', NULL),
 (11, 'hod_chem', 'hod', 'hod_chem@ptuniv.edu.in', 'hashed_password', 'CHEM', '', NULL),
 (12, '2301110043', 'student', 'sarweshsasi220@gmail.com', 'sarvesh', 'CSE', 'Sarwesh', NULL),
-(13, '2201112003', 'student', 'amizharasu@gmail.com', 'aari', 'IT', 'AARYAN M 01', NULL),
+(13, '2201112003', 'student', 'yourgmail@gmail.com', 'aari', 'IT', 'AARYAN M 01', NULL),
 (14, '2201112004', 'student', 'adesh.saminathan998@ptuniv.edu.in', 'adesh', 'IT', 'Adesh', NULL),
 (30, 'T001', 'teacher', 'mohanaryan21@gmail.com', 'hashed_password', 'CSE', 'Teacher One', 'cs1'),
 (31, 'T002', '', 'teacher2@ptuniv.edu.in', 'hashed_password', 'ECE', 'Teacher Two', 'TECH002'),

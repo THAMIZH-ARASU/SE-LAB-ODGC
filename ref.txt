@@ -13,8 +13,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Email Configuration
-$EMAIL_ADDRESS = "amizharasu@gmail.com"; // Your Gmail address
-$EMAIL_PASSWORD = "monb vzsm oabv lpvi"; // Your app-specific password
+$EMAIL_ADDRESS = "yourgmail@gmail.com"; // Your Gmail address
+$EMAIL_PASSWORD = "your gmail app password"; // Your app-specific password
 
 // Fetch student details from the database
 $registration_number = $_SESSION['registration_number'];

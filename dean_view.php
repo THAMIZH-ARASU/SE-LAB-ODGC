@@ -13,8 +13,8 @@ if ($_SESSION['role'] !== 'dean') {
 }
 
 // Email Configuration
-$EMAIL_ADDRESS = "amizharasu@gmail.com";
-$EMAIL_PASSWORD = "monb vzsm oabv lpvi";
+$EMAIL_ADDRESS = "yourgmail@gmail.com";
+$EMAIL_PASSWORD = "your gmail app password";
 
 // Process filters
 $department_filter = $_GET['department'] ?? '';

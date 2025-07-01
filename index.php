@@ -9,8 +9,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // --- Email Configuration ---
-$EMAIL_ADDRESS = "amizharasu@gmail.com"; // Replace with your Gmail address
-$EMAIL_PASSWORD = "monb vzsm oabv lpvi"; // Replace with your app-specific password
+$EMAIL_ADDRESS = "yourgmail@gmail.com"; // Replace with your Gmail address
+$EMAIL_PASSWORD = "your gmail app password"; // Replace with your app-specific password
 
 // Initialize error message
 $error_message = "";
@@ -114,7 +114,7 @@ $notice_title = "NOTIFICATION";
 $welcome_message = "WELCOME TO PTU Advanced Portal";
 $notice_details = "Issues related to OD Form, Career Guidance Form";
 $contact_info = "TEAM IT";
-$email_contact = "amizharasu@gmail.com";
+$email_contact = "yourgmail@gmail.com";
 
 // Circular Content
 $circular_title = "CIRCULAR";
